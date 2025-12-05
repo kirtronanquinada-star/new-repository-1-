@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: linear-gradient(rgba(39,39,39, 0.6), transparent);
+    z-index: 100;
+}
+
+.login-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    background: url(../../../Downloads/wavy-abstract-shapes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.login-left h1 {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.login-box {
+    position: center;
+    background-color: rgb(222, 163, 225);
+    padding: 40px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-box input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-box button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8a7ef4;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.login-box .error {
+    color: red;
+    font-size: 14px;
+}
+
+.login-right {
+    background: url(../../../Downloads/wavy-abstract-shapes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    flex: 1;
+    background-color: #8d7af8;
+    color: rgb(235, 178, 243);
+    display: flex;
+}
+
+.login-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.login-right li {
+
+    margin: 20px 0;
+}
+
+.login-right a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.portfolio-container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #866ff6;
+    color: white;
+}
+
+.portfolio-container section {
+    padding: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.nav-menu ul li .link {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: linear-gradient(rgba(39,39,39, 0.6), transparent);
+    z-index: 100;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(233, 158, 242);
+    padding-bottom: 10px 15px;
+}

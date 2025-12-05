@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style (1).css">
+</head>
+<body>
+    <div id="login-section" class="login-container">
+        <div class="login-left">
+            <div class="login-box">
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+                <button onclick="login()">Login</button>
+                <p id="error" class="error"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio-section" class="portfolio-container" style="display:none;">
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+            <button onclick="logout()">Logout</button>
+        </header>
+
+        <section id="home">
+            <h2>Home</h2>
+            <p>Hello! Welcome to my personal portfolio website.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Name: Kirt Ronan A. Quinada</p>
+            <p>AGE: 19</p>
+            <P>BIRTHDAY: September 17, 2006</P>
+            <P>SEX: MALE</P>
+            <p>ADDRESS: Brgy. Tolosa P-1 Cabadbaran City, Agusan del Norte</p>
+            <P>COURSE: BSIT-1C</P>
+            <p>COLLEGE: CARAGA STATE UNIVERSITY - CABADBARAN CAMPUS</p>
+            <p>YEAR: 1st Year</p>
+            <p>SECTION: 1C</p>
+            <p>HOBBIES: Playing Games, Dancing, Watching Anime, Listening to Music</p>
+
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: kirtronan.quinada@csucc.edu.ph</p>
+            <p>Phone: +639272828784</p>
+        </section>
+
+        <section id="Projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1: Here’s a step-by-step guide for your students to create a folder and then create an Excel filei
+                    nside that folder using the Command Prompt:e</li>
+                <li>Project 2: Software and Operating Systems</li>
+                <li>Project 3: Make a simple website</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="sign.javaScript.js"></script>
+</body>
+</html>
