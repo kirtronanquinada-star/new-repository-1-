@@ -28,7 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #f0f0f0;
-    background: https://github.com/kirtronanquinada-star/new-repository-1-/blob/main/wavy-abstract-shapes.jpg?raw=true
+    background: url(https://github.com/kirtronanquinada-star/new-repository-1-/blob/main/wavy-abstract-shapes.jpg?raw=true);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -74,7 +74,7 @@ body {
 }
 
 .login-right {
-    background: https://github.com/kirtronanquinada-star/new-repository-1-/blob/main/wavy-abstract-shapes.jpg?raw=true
+    background: url(https://github.com/kirtronanquinada-star/new-repository-1-/blob/main/wavy-abstract-shapes.jpg?raw=true);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
